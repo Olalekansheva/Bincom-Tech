@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+
+        <div class="nav-logo">Sherif Yusuff</div>
+    
+    <div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<nav class="hamburger-nav">
+    <div class="logo"></div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="togglemenu()">
+            
+        </div>
+
+        <div class="menu-links">
+            <li><a href="home" onclick="togglemenu()">Home</a></li>
+            <li><a href="about" onclick="togglemenu()">About</a></li>
+            <li><a href="service" onclick="togglemenu()"> Service</a></li>
+            <li><a href="contact" onclick="togglemenu()">Contact</a></li>
+        </div>
+    </div>
+
+</nav>
+
+<section>
+    <div class="flex-container">
+        <div class="profile-pics">
+            <img src="./Images/Sherif-Slack-profile-picture.png" alt="Sherif profile pic" >
+        </div>
+        <div class="container-text">
+            <div class="text-div">
+                <h1 class="heading-1">Sherif Yusuff</h1>
+                <p class="para-1">A <span>Software</span> Engineer</p3>
+               
+              
+
+                <div id="socials-container">
+                    <img src="./Images/icons8-linkedin-logo-50.png" alt="my linkedin profile" width="50px" class="icon" onclick="location.href='https://linkedin.com/in/sherif-yusuff-381b1495'">
+               
+                  
+                    <img src="./Images/icons8-github-94.png" alt="my github profile" width="50px" class="icon" onclick="location.href='https://github.com/olalekansheva'">
+                    <img src="./Images/icons8-twitter-64.png" alt="my twitter profile" width="50" class="icon" onclick="location.href='https://twitter.com/olamilekansheva'">
+                    <img src="./Images/icons8-facebook-50.png" alt="my facebook profile" width="50" class="icon" onclick="location.href='https://facebook.com/sherifolamilekanolatunji'">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="crew-gallery">
+       <h2 class="crew-friends">Crew & Friends Gallery</h2>
+        <div class="crew-gallery-container">
+            <div class="img-div1">
+             <img src="./Images/badmus-removebg-preview.png" alt="Shade pic">
+             <img src="./Images/samm-removebg-preview.png" alt="samm pic">
+            </div>
+
+            <div class="img-div2">   
+              <img src="./Images/ridwas-removebg-preview.png" alt="ridwas pic">
+              <img src="./Images/funmi.png" alt="funmi pic" class="funmi">
+            </div>
+        </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Sherif Yusuff. All rights reserved.</p>
+</footer>
+
+        <script src="app.js"></script>
+    </body>
+    </html>
+    
+</body>
+</html>
